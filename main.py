@@ -12,7 +12,7 @@ all_countries = data.country.tolist()
 guessed_countries = []
 
 while len(guessed_countries) < 47:
-	answer_country = screen.textinput(f"{len(guessed_countries)}/47 Countries Correct",
+	answer_country = screen.textinput(f"{len(guessed_countries)}/44 Countries Correct",
 		prompt="What's another country's name?").title()
 
 #Upon exit check what the user missed and write a new csv file with the missed countries for them to study
